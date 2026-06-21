@@ -29,8 +29,13 @@ AI coding agent 的常见问题：
 
 | 文件 | 用途 |
 |------|------|
-| `task-flow-propose-first.md` | Hermes Agent 专用版（有 `clarify` 工具，支持点击选择） |
+| `task-flow-propose-first.md` | 修改用（Hermes 专用版，有 `clarify` 工具，支持点击选择） |
+| `brainstorming.md` | 讨论用（新功能/新项目从零设计，需求澄清、方案探索） |
 | `structured-clarification.md` | 通用版（任何 AI 助手都能用，markdown A/B/C 格式） |
+
+两个 skill 是对应的：
+- **修改已有东西** → task-flow-propose-first（读→理解→方案→执行→验证）
+- **从零设计新东西** → brainstorming（探索需求→提出方案→写设计文档）
 
 ## 使用方式
 
